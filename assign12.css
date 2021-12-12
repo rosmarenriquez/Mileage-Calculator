@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+.blue_rounded {
+    border: 2px solid #3056ffd8;
+    border-radius: 0.5rem;
+    background-color: #227affd3;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.white_rounded {
+    border: 2px solid #26607F;
+    border-radius: 1rem;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+table, th, td {
+    border:1px solid black;
+  }

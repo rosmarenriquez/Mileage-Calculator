@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mileage Calculator</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assign12.css">
+    <script src="assign12.js"></script>
+  </head>
+  <body>
+    <br>
+    <form name="myForm" class="blue_rounded">
+    
+      <div class="white_rounded">
+        <h3>Mileage Calculator</h3><br><br>
+        <label>Start City: <input type="text" name="startCity"></label><br><br>
+        <label>Start State: <input type="text" name="startState" maxlength="2" placeholder="XX"></label><br><br>
+        <label>End City: <input type="text" name="endCity"></label><br><br>
+        <label>End State: <input type="text" name="endState" maxlength="2" placeholder="XX"></label><br><br>
+        <button type="button" onclick="sendData()">Send Query!</button>
+      </div>
+  
+      <div id="tableResult">
+      </div>
+    </form>
+  </body>
+</html>
